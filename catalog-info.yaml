@@ -63,7 +63,7 @@ metadata:
     github.com/project-slug: divyanshiGupta/nationalparks-py
     backstage.io/kubernetes-id: nationalparks-py
     janus-idp.io/tekton: nationalparks-py
-    jfrog-artifactory/image-name: trialjgwb0x.jfrog.io/xyz-docker/hello-world:1.0.0
+    jfrog-artifactory/image-name: hello-world
     # backstage.io/kubernetes-namespace: div
 spec:
   type: service
