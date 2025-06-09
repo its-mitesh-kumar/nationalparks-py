@@ -64,6 +64,7 @@ metadata:
     backstage.io/kubernetes-id: nationalparks-py
     janus-idp.io/tekton: nationalparks-py
     jfrog-artifactory/image-name: hello-world
+    azure-container-registry/repository-name: hello-world
     # backstage.io/kubernetes-namespace: div
 spec:
   type: service
