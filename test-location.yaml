@@ -7,4 +7,5 @@ spec:
   targets:
     - https://github.com/its-mitesh-kumar/nationalparks-py/blob/master/test-component-1.yaml
     - https://github.com/its-mitesh-kumar/nationalparks-py/blob/master/test-component-3.yaml
+    - https://github.com/its-mitesh-kumar/nationalparks-py/blob/master/test-component-2.yaml
 
