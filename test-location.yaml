@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: test-location
+  description: Test location with multiple entities to reproduce parsing error issue
+spec:
+  targets:
+    - ./test-entities/test-component-1.yaml
+    - ./test-entities/test-component-2.yaml
+    - ./test-entities/test-component-3.yaml
