@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: test-location
+  description: Test location with multiple entities to reproduce parsing error issue
+spec:
+  targets:
+    - https://github.com/its-mitesh-kumar/nationalparks-py/blob/master/test-component-1.yaml
+    - https://github.com/its-mitesh-kumar/nationalparks-py/blob/master/test-component-3.yaml
+    #- https://github.com/its-mitesh-kumar/nationalparks-py/blob/master/test-component-2.yaml
