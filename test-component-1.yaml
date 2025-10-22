@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-component-1
+  title: Test Component 1
+  description: This is a valid component for testing the parsing error issue
+  tags:
+    - testing
+    - valid-entity
+spec:
+  type: service
+  lifecycle: production
+  owner: temp-team-a
+  system: test-system
