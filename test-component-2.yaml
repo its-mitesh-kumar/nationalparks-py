@@ -13,4 +13,4 @@ spec:
   owner: temp-team-a
   system: test-system
   # This line has incorrect indentation - should cause parsing error
-   #invalidField: "This will cause a YAML parsing error due to incorrect indentation"
+   invalidField: "This will cause a YAML parsing error due to incorrect indentation"
