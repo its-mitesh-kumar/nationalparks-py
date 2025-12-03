@@ -1,0 +1,32 @@
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-group
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: rhdh-ui-team
+  title: RHDH frontend and UI team
+  annotations:
+    # roadie jira plugin
+    jira/project-key: RHIDP
+    jira/component: UI
+
+    # AxisCommunications jira-dashboard
+    jira.com/project-key: RHIDP
+    jira.com/components: UI
+    #jira.com/filter-ids: 12345,67890 # Jira filter id separated with a comma
+
+    # Disable GitLab plugin in the future https://github.com/immobiliare/backstage-plugin-gitlab/pull/607
+    # gitlab.com/instance: ""
+    # gitlab.com/project-slug: ""
+  links:
+    - title: "Slack #rhdh-ux-ui"
+      type: chat
+      icon: chat
+      url: https://redhat.enterprise.slack.com/archives/C05KGRQLPLG
+    - title: RHDH UI sync (Meeting notes on Google Docs)
+      type: docs
+      icon: docs
+      url: https://docs.google.com/document/d/10MLiFnJukiLipf8bT1mtY4IMjoyx5-8wwIBccFue-Bc/edit
+spec:
+  type: team
+  lifecycle: active
+  owner: rhdh-ui-team
