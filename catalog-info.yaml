@@ -67,6 +67,7 @@ metadata:
     janus-idp.io/tekton: nationalparks-py
     jfrog-artifactory/image-name: hello-world
     azure-container-registry/repository-name: hello-world
+    backstage.io/techdocs-ref: dir:.
     # backstage.io/kubernetes-namespace: div
 spec:
   type: service
