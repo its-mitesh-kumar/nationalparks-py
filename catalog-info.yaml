@@ -64,7 +64,7 @@ metadata:
   annotations:
     github.com/project-slug: divyanshiGupta/nationalparks-py
     backstage.io/kubernetes-id: nationalparks-py
-    janus-idp.io/tekton: nationalparks-py
+    tekton.dev/cicd: "true"
     jfrog-artifactory/image-name: hello-world
     azure-container-registry/repository-name: hello-world
     backstage.io/techdocs-ref: dir:.
