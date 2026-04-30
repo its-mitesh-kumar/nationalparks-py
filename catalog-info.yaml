@@ -49,6 +49,19 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
+  name: mkumar
+  tag: abcd
+  description: abcd
+spec:
+  profile:
+    # Intentional no displayName for testing
+    email: mitkumar@redhat.com
+  memberOf: [temp-team-a]
+---
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
   name: its-mitesh-kumar
 spec:
   profile:
